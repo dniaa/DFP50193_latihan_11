@@ -6,19 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variable</title>
     <style>
-        </style>
-
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20pt;
+        }
+    </style>
 </head>
 <body>
-    <?php
+    <?php 
     $jab = 'Jabatan Teknologi Maklumat dan Komunikasi';
     echo tajuk();
     ?>
 </body>
 </html>
 
-<?php 
+<?php
 function tajuk() {
     global $jab;
     echo "<h1>$jab</h1>";
+
 }
+?>

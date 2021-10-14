@@ -15,7 +15,7 @@
     <?php
     include 'variable.php';
     require 'variable.php';
-    
+
     $harga_baju = 24;
     $duit_bawa = 50;
 
@@ -35,8 +35,12 @@
 function kira($harga_baju, $duit_bawa){
     $bilangan_baju = 0;
     $baki_duit = 0;
-    for ($duit_bawa = 50; $duit_bawa > $harga_baju; $_GET)
-    #
+    for ($duit_bawa = 50; $duit_bawa > $harga_baju; $duit_bawa - $harga_baju) {
+        $bilangan_baju++;
+
+        $baki_duit = $duit_bawa - $harga_baju;
+    }
+
 
     $hasil = [
         'bilangan_baju' => $bilangan_baju,
